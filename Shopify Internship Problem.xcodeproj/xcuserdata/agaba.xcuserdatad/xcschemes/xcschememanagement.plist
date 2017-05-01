@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Shopify Internship Problem Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Shopify Internship Problem.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>408EE6A91EB1490700C5678B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>408EE6C81EB25AE600C5678B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

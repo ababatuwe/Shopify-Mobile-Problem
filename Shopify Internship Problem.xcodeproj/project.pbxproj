@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4081A5241EB4DDB200E18788 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081A5231EB4DDB200E18788 /* Product.swift */; };
+		4081A52A1EB65C6100E18788 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081A5291EB65C6100E18788 /* Order.swift */; };
+		4081A52C1EB65C8800E18788 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081A52B1EB65C8800E18788 /* Error.swift */; };
+		4081A52E1EB7D47C00E18788 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081A52D1EB7D47C00E18788 /* Functions.swift */; };
 		408EE6AE1EB1490700C5678B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408EE6AD1EB1490700C5678B /* AppDelegate.swift */; };
-		408EE6B01EB1490700C5678B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408EE6AF1EB1490700C5678B /* ViewController.swift */; };
 		408EE6B31EB1490700C5678B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408EE6B11EB1490700C5678B /* Main.storyboard */; };
 		408EE6B51EB1490700C5678B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408EE6B41EB1490700C5678B /* Assets.xcassets */; };
 		408EE6B81EB1490700C5678B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408EE6B61EB1490700C5678B /* LaunchScreen.storyboard */; };
+		408EE6C41EB2597300C5678B /* RevenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408EE6C31EB2597300C5678B /* RevenueViewController.swift */; };
+		408EE6CC1EB25AE600C5678B /* Shopify_Internship_Problem_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408EE6CB1EB25AE600C5678B /* Shopify_Internship_Problem_Tests.swift */; };
+		408EE6D41EB25C8700C5678B /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408EE6D31EB25C8700C5678B /* DownloadManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		408EE6CE1EB25AE600C5678B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408EE6A21EB1490700C5678B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408EE6A91EB1490700C5678B;
+			remoteInfo = "Shopify Internship Problem";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4081A5231EB4DDB200E18788 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4081A5291EB65C6100E18788 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4081A52B1EB65C8800E18788 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		4081A52D1EB7D47C00E18788 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		408EE6AA1EB1490700C5678B /* Shopify Internship Problem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopify Internship Problem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408EE6AD1EB1490700C5678B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		408EE6AF1EB1490700C5678B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		408EE6B21EB1490700C5678B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		408EE6B41EB1490700C5678B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408EE6B71EB1490700C5678B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408EE6B91EB1490700C5678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408EE6C31EB2597300C5678B /* RevenueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevenueViewController.swift; sourceTree = "<group>"; };
+		408EE6C91EB25AE600C5678B /* Shopify Internship Problem Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopify Internship Problem Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408EE6CB1EB25AE600C5678B /* Shopify_Internship_Problem_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopify_Internship_Problem_Tests.swift; sourceTree = "<group>"; };
+		408EE6CD1EB25AE600C5678B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408EE6D31EB25C8700C5678B /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,13 +56,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		408EE6C61EB25AE600C5678B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4081A5251EB65C0400E18788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408EE6AD1EB1490700C5678B /* AppDelegate.swift */,
+				408EE6B41EB1490700C5678B /* Assets.xcassets */,
+				408EE6B61EB1490700C5678B /* LaunchScreen.storyboard */,
+				408EE6B91EB1490700C5678B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4081A5261EB65C0C00E18788 /* Supporting Files (Tests) */ = {
+			isa = PBXGroup;
+			children = (
+				408EE6CD1EB25AE600C5678B /* Info.plist */,
+			);
+			name = "Supporting Files (Tests)";
+			sourceTree = "<group>";
+		};
+		4081A5271EB65C2300E18788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4081A5231EB4DDB200E18788 /* Product.swift */,
+				408EE6D31EB25C8700C5678B /* DownloadManager.swift */,
+				4081A5291EB65C6100E18788 /* Order.swift */,
+				4081A52B1EB65C8800E18788 /* Error.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4081A5281EB65C4A00E18788 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				408EE6C31EB2597300C5678B /* RevenueViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		408EE6A11EB1490700C5678B = {
 			isa = PBXGroup;
 			children = (
 				408EE6AC1EB1490700C5678B /* Shopify Internship Problem */,
+				408EE6CA1EB25AE600C5678B /* Shopify Internship Problem Tests */,
 				408EE6AB1EB1490700C5678B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				408EE6AA1EB1490700C5678B /* Shopify Internship Problem.app */,
+				408EE6C91EB25AE600C5678B /* Shopify Internship Problem Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +125,22 @@
 		408EE6AC1EB1490700C5678B /* Shopify Internship Problem */ = {
 			isa = PBXGroup;
 			children = (
-				408EE6AD1EB1490700C5678B /* AppDelegate.swift */,
-				408EE6AF1EB1490700C5678B /* ViewController.swift */,
+				4081A52D1EB7D47C00E18788 /* Functions.swift */,
 				408EE6B11EB1490700C5678B /* Main.storyboard */,
-				408EE6B41EB1490700C5678B /* Assets.xcassets */,
-				408EE6B61EB1490700C5678B /* LaunchScreen.storyboard */,
-				408EE6B91EB1490700C5678B /* Info.plist */,
+				4081A5281EB65C4A00E18788 /* View Controllers */,
+				4081A5271EB65C2300E18788 /* Models */,
+				4081A5251EB65C0400E18788 /* Supporting Files */,
 			);
 			path = "Shopify Internship Problem";
+			sourceTree = "<group>";
+		};
+		408EE6CA1EB25AE600C5678B /* Shopify Internship Problem Tests */ = {
+			isa = PBXGroup;
+			children = (
+				408EE6CB1EB25AE600C5678B /* Shopify_Internship_Problem_Tests.swift */,
+				4081A5261EB65C0C00E18788 /* Supporting Files (Tests) */,
+			);
+			path = "Shopify Internship Problem Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +163,24 @@
 			productReference = 408EE6AA1EB1490700C5678B /* Shopify Internship Problem.app */;
 			productType = "com.apple.product-type.application";
 		};
+		408EE6C81EB25AE600C5678B /* Shopify Internship Problem Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408EE6D01EB25AE600C5678B /* Build configuration list for PBXNativeTarget "Shopify Internship Problem Tests" */;
+			buildPhases = (
+				408EE6C51EB25AE600C5678B /* Sources */,
+				408EE6C61EB25AE600C5678B /* Frameworks */,
+				408EE6C71EB25AE600C5678B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408EE6CF1EB25AE600C5678B /* PBXTargetDependency */,
+			);
+			name = "Shopify Internship Problem Tests";
+			productName = "Shopify Internship Problem Tests";
+			productReference = 408EE6C91EB25AE600C5678B /* Shopify Internship Problem Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +195,12 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = N7QGY55H4B;
 						ProvisioningStyle = Automatic;
+					};
+					408EE6C81EB25AE600C5678B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = N7QGY55H4B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 408EE6A91EB1490700C5678B;
 					};
 				};
 			};
@@ -115,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				408EE6A91EB1490700C5678B /* Shopify Internship Problem */,
+				408EE6C81EB25AE600C5678B /* Shopify Internship Problem Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +234,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		408EE6C71EB25AE600C5678B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +248,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408EE6B01EB1490700C5678B /* ViewController.swift in Sources */,
 				408EE6AE1EB1490700C5678B /* AppDelegate.swift in Sources */,
+				4081A5241EB4DDB200E18788 /* Product.swift in Sources */,
+				4081A52A1EB65C6100E18788 /* Order.swift in Sources */,
+				4081A52E1EB7D47C00E18788 /* Functions.swift in Sources */,
+				408EE6C41EB2597300C5678B /* RevenueViewController.swift in Sources */,
+				4081A52C1EB65C8800E18788 /* Error.swift in Sources */,
+				408EE6D41EB25C8700C5678B /* DownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408EE6C51EB25AE600C5678B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408EE6CC1EB25AE600C5678B /* Shopify_Internship_Problem_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408EE6CF1EB25AE600C5678B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408EE6A91EB1490700C5678B /* Shopify Internship Problem */;
+			targetProxy = 408EE6CE1EB25AE600C5678B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		408EE6B11EB1490700C5678B /* Main.storyboard */ = {
@@ -283,6 +415,34 @@
 			};
 			name = Release;
 		};
+		408EE6D11EB25AE600C5678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N7QGY55H4B;
+				INFOPLIST_FILE = "Shopify Internship Problem Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agabankuuhe.Shopify-Internship-Problem-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopify Internship Problem.app/Shopify Internship Problem";
+			};
+			name = Debug;
+		};
+		408EE6D21EB25AE600C5678B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N7QGY55H4B;
+				INFOPLIST_FILE = "Shopify Internship Problem Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agabankuuhe.Shopify-Internship-Problem-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopify Internship Problem.app/Shopify Internship Problem";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -302,6 +462,16 @@
 				408EE6BE1EB1490700C5678B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408EE6D01EB25AE600C5678B /* Build configuration list for PBXNativeTarget "Shopify Internship Problem Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408EE6D11EB25AE600C5678B /* Debug */,
+				408EE6D21EB25AE600C5678B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
